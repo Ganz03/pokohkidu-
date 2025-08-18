@@ -60,7 +60,7 @@
                     </div>
                     <h3 class="text-xl font-semibold text-gray-800 mb-2">Belum Ada Data Organisasi</h3>
                     <p class="text-gray-600 mb-6">Struktur organisasi akan ditampilkan di sini setelah ditambahkan oleh administrator.</p>
-                    <a href="{{ route('home') }}" class="inline-flex items-center px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg transition-colors">
+                    <a href="{{ route('welcome') }}" class="inline-flex items-center px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg transition-colors">
                         <i class="fas fa-arrow-left mr-2"></i>
                         Kembali ke Beranda
                     </a>
