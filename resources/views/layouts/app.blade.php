@@ -705,7 +705,7 @@
                             <a href="{{ route('village-geography.index') }}" class="dropdown-item">
                                 <i class="fas fa-map"></i> Geografis Desa
                             </a>
-                        <a href="{{ route('village-demographics.index') }}" class="dropdown-item">
+                            <a href="{{ route('village-demographics.index') }}" class="dropdown-item">
                                 <i class="fas fa-chart-bar"></i> Demografis Desa
                             </a>
                             <a href="{{ route('maps.index') }}" class="dropdown-item">
@@ -818,22 +818,22 @@
                             PROFIL DESA <i class="fas fa-chevron-down"></i>
                         </a>
                         <div class="mobile-dropdown" id="profilDropdown">
-                            <a href="#" class="dropdown-item">
+                            <a href="{{ route('about.index') }}" class="dropdown-item">
                                 <i class="fas fa-users"></i> Tentang Kami
                             </a>
-                            <a href="#" class="dropdown-item">
+                            <a href="{{ route('vision-mission.index') }}" class="dropdown-item">
                                 <i class="fas fa-eye"></i> Visi & Misi
                             </a>
-                            <a href="#" class="dropdown-item">
+                            <a href="{{ route('village-history.index') }}" class="dropdown-item">
                                 <i class="fas fa-history"></i> Sejarah Desa
                             </a>
-                            <a href="#" class="dropdown-item">
+                            <a href="{{ route('village-geography.index') }}" class="dropdown-item">
                                 <i class="fas fa-map"></i> Geografis Desa
                             </a>
-                            <a href="#" class="dropdown-item">
+                            <a href="{{ route('village-demographics.index') }}" class="dropdown-item">
                                 <i class="fas fa-chart-bar"></i> Demografis Desa
                             </a>
-                            <a href="#" class="dropdown-item">
+                            <a href="{{ route('maps.index') }}" class="dropdown-item">
                                 <i class="fas fa-map"></i> Peta Infografis Desa
                             </a>
                         </div>
@@ -848,41 +848,14 @@
                             PEMERINTAHAN <i class="fas fa-chevron-down"></i>
                         </a>
                         <div class="mobile-dropdown" id="pemerintahanDropdown">
-                            <a href="#" class="dropdown-item">
+                            <a href="{{ route('organization.index') }}" class="dropdown-item">
                                 <i class="fas fa-sitemap"></i> Struktur Organisasi
                             </a>
-                            <a href="#" class="dropdown-item">
+                            <a href="{{ route('perangkat-desa.index') }}" class="dropdown-item">
                                 <i class="fas fa-users-cog"></i> Perangkat Desa
                             </a>
-                            <a href="#" class="dropdown-item">
-                                <i class="fas fa-building"></i> Lembaga Desa
-                            </a>
-                            <a href="#" class="dropdown-item">
-                                <i class="fas fa-shield-alt"></i> BPD
-                            </a>
-                            <a href="#" class="dropdown-item">
-                                <i class="fas fa-heart"></i> LPM
-                            </a>
-                            <a href="#" class="dropdown-item">
-                                <i class="fas fa-child"></i> PKK
-                            </a>
-                            <a href="#" class="dropdown-item">
-                                <i class="fas fa-users"></i> Rukun Tetangga
-                            </a>
-                            <a href="#" class="dropdown-item">
-                                <i class="fas fa-home"></i> Rukun Warga
-                            </a>
-                            <a href="#" class="dropdown-item">
-                                <i class="fas fa-graduation-cap"></i> Karang Taruna
-                            </a>
-                            <a href="#" class="dropdown-item">
-                                <i class="fas fa-female"></i> Posyandu Balita
-                            </a>
-                            <a href="#" class="dropdown-item">
-                                <i class="fas fa-user-friends"></i> Posyandu Remaja
-                            </a>
-                            <a href="#" class="dropdown-item">
-                                <i class="fas fa-user-plus"></i> Posyandu Lansia
+                            <a href="{{ route('lembaga-desa.index') }}"  class="dropdown-item">
+                                <i class="fas fa-building mr-2"></i>Lembaga Desa
                             </a>
                         </div>
                     </li>
@@ -891,19 +864,19 @@
                             LAYANAN <i class="fas fa-chevron-down"></i>
                         </a>
                         <div class="mobile-dropdown" id="layananDropdown">
-                            <a href="#" class="dropdown-item">
+                           <a href="{{ route('services.kk.index') }}" class="dropdown-item">
                                 <i class="fas fa-id-card"></i> KK
                             </a>
-                            <a href="#" class="dropdown-item">
+                            <a href="{{ route('services.ktp.index') }}" class="dropdown-item">
                                 <i class="fas fa-address-card"></i> KTP
                             </a>
-                            <a href="#" class="dropdown-item">
+                            <a href="{{ route('services.pindah-datang.index') }}" class="dropdown-item">
                                 <i class="fas fa-plane"></i> Pindah Datang Tercecer
                             </a>
-                            <a href="#" class="dropdown-item">
+                            <a href="{{ route('services.kia.index') }}" class="dropdown-item">
                                 <i class="fas fa-file-alt"></i> KIA
                             </a>
-                            <a href="#" class="dropdown-item">
+                            <a href="{{ route('services.peristiwa-penting.index') }}" class="dropdown-item">
                                 <i class="fas fa-certificate"></i> Peristiwa Penting/Akta
                             </a>
                         </div>
@@ -913,22 +886,19 @@
                             INFORMASI <i class="fas fa-chevron-down"></i>
                         </a>
                         <div class="mobile-dropdown" id="informasiDropdown">
-                            <a href="#" class="dropdown-item">
+                            <a href="{{ route('news.index') }}" class="dropdown-item">
                                 <i class="fas fa-newspaper"></i> Berita
                             </a>
-                            <a href="#" class="dropdown-item">
+                            <a href="{{ route('announcements.index') }}" class="dropdown-item">
                                 <i class="fas fa-bullhorn"></i> Pengumuman
                             </a>
-                            <a href="#" class="dropdown-item">
+                            <a href="{{ route('events.index') }}" class="dropdown-item">
                                 <i class="fas fa-calendar"></i> Agenda Kegiatan
                             </a>
-                            <a href="#" class="dropdown-item">
+                            <a href="{{ route('gallery.index') }}" class="dropdown-item">
                                 <i class="fas fa-images"></i> Galeri
                             </a>
-                            <a href="#" class="dropdown-item">
-                                <i class="fas fa-download"></i> Download
-                            </a>
-                            <a href="#" class="dropdown-item">
+                            <a href="{{ route('apbdesa.index') }}" class="dropdown-item">
                                 <i class="fas fa-chart-line"></i> APBDesa
                             </a>
                         </div>
@@ -938,7 +908,7 @@
                             POTENSI DESA <i class="fas fa-chevron-down"></i>
                         </a>
                         <div class="dropdown">
-                            <a href="#" class="dropdown-item">
+                            <a href="{{ route('potensi-desa.index') }}" class="dropdown-item">
                                 <i class="fas fa-seedling"></i> Potensi Penduduk
                             </a>
                         </div>
