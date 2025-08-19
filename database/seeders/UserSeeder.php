@@ -17,6 +17,13 @@ class UserSeeder extends Seeder
             'password' => Hash::make('argana03'),
             'created_at' => now(),
             'updated_at' => now(),
+
+            'id' => 2,
+            'name' => 'admin',
+            'email' => 'Agung@gmail.com',
+            'password' => Hash::make('pokidmelejid'),
+            'created_at' => now(),
+            'updated_at' => now(),
         ]);
     }
 }
