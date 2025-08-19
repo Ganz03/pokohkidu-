@@ -14,6 +14,8 @@ use App\Http\Controllers\GalleryController;
 use App\Http\Controllers\OrganizationController;
 use App\Http\Controllers\PerangkatDesaController;
 use App\Http\Controllers\LembagaDesaController;
+use App\Http\Controllers\AboutController;
+use App\Http\Controllers\PotensiDesaController;
 
 Route::get('/', [HomeController::class, 'index'])->name('welcome');
 
@@ -71,7 +73,7 @@ Route::prefix('transparansi')->group(function () {
 
 Route::get('/maps', [MapController::class, 'index'])->name('maps.index');
 Route::get('/maps/{slug}', [MapController::class, 'show'])->name('maps.show');
-Route::get('/tentang-kami', [App\Http\Controllers\AboutController::class, 'index'])->name('about.index');
+Route::get('/tentang-kami', [AboutController::class, 'index'])->name('about.index');
 Route::get('/visi-misi', [VisionMissionController::class, 'index'])->name('vision-mission.index');
 Route::get('/sejarah-desa', [VillageHistoryController::class, 'index'])->name('village-history.index');
 Route::get('/geografis-desa', [VillageGeographyController::class, 'index'])->name('village-geography.index');
@@ -81,4 +83,4 @@ Route::get('/galeri/{galleryItem}', [GalleryController::class, 'show'])->name('g
 Route::get('/struktur-organisasi', [OrganizationController::class, 'index'])->name('organization.index');
 Route::get('/struktur-organisasi/{organizationPosition}', [OrganizationController::class, 'show'])->name('organization.show');
 Route::get('/perangkat-desa', [PerangkatDesaController::class, 'index'])->name('perangkat-desa.index');
-Route::get('/potensi-desa', [App\Http\Controllers\PotensiDesaController::class, 'index'])->name('potensi-desa.index');
+Route::get('/potensi-desa', [PotensiDesaController::class, 'index'])->name('potensi-desa.index');
